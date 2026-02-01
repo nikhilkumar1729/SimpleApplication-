@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #000;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.logo {
+  color: red;
+  font-weight: bold;
+}
+
+.sign-in {
+  background: red;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  height: 80vh;
+  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+              url('https://via.placeholder.com/1200x600');
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-content button {
+  background: red;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Movies Row */
+.row {
+  padding: 20px 40px;
+}
+
+.movies {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.movies img {
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.movies img:hover {
+  transform: scale(1.1);
+}
